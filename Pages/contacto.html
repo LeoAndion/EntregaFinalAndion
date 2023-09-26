@@ -3,57 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Estilos/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-        <div class="la">
-            <a href="index.html"><img src="Imagenes/la.jpg" width="150" alt=""></a>
-
-        </div>
-        <nav class="links">
-            <a href="../index.html">Inicio</a>
-            <a href="contacto.html">Contacto</a>
-            <a href="experiencia.html">Experiencia</a>
-            <a href="blog.html">Blog</a>
-            <a href="media.html">Media</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="experiencia.html">Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="media.html">Media</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
     </header>
     <main>
-    <section class="contatu">
-        <div>
-            <h1>Contacto</h1>
-            <p>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            <p>email.gmail.com</p>
-            <p>099123123</p>
-            <p>UY, Montevideo</p>
-
-        </div>
-
-        <form action="#" autocomplete="off">
-            <input type="text" name="nombre" placeholder="Tu Nombre" class="campo"><br>
-            <input type="emal" name="email" placeholder="Tu Email" class="campo"><br>
-            <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea><br>
-            <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-        </form>
-
-    </section>
+        
+              
 </main>
-    <footer>
-        <div>
-            <a href="index.html"><img src="Imagenes/la.jpg" width="150" alt=""></a>
-
-
-        </div>
-        <div class="redireccion">
-            <p>Leonardo Andion 2023 CoderHouse</p>
-            <a href="https://www.linkedin.com/in/leonardo-andion-59a3a814a/"><img class="contactIMG" src="Imagenes/li.png" alt=""></a>
-            <a href="facebook.com/leonardo.r.andion/"><img class="contactIMG" src="Imagenes/fb.png" alt=""></a>
-            <a href="https://www.instagram.com/leonardoandion/"><img class="contactIMG" src="Imagenes/insta.png" alt=""></a>
-        </div>
-
+<div class="container">
+    <footer class="py-3 my-4" >
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+        <li class="nav-item"><a href="experiencia.html" class="nav-link px-2 text-body-secondary">Experiencia</a></li>
+        <li class="nav-item"><a href="media.html" class="nav-link px-2 text-body-secondary">Media</a></li>
+        <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-body-secondary">Blog</a></li>
+        <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2023 Leonardo Andion CH</p><br>
+      <p class="text-center text-body-secondary">
+        <a class="icon-link icon-link-hover text-center" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://facebook.com/leonardo.r.andion/">
+          <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
+          Facebook
+        </a>
+        <a class="icon-link icon-link-hover text-center" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.instagram.com/leonardoandion/">
+          <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
+          Instagram
+        </a>
+       
+        <a class="icon-link icon-link-hover text-center" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="https://www.linkedin.com/in/leonardo-andion-59a3a814a/">
+          <svg class="bi" aria-hidden="true"><use xlink:href="#clipboard"></use></svg>
+          linkedin
+        </a>
+      </p>
     </footer>
+  </div>
 </body>
 </html>
