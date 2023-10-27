@@ -1,5 +1,6 @@
   
  $color-pagina-uno: #ffffff;
+ $color-pagina-dos:#dddbdb;
 
  @use "mediaCard";
  
@@ -14,7 +15,24 @@
     height: $alto;
     
   }
-
+ @mixin contacto($largo,$width) {
+  height: $largo;
+  width: $width;
+    background: $color-pagina-uno;
+    padding: 25px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #3f3f3f;
+    font-size: 18px;
+    color: #000;
+  }
+  .controls {
+    @include contacto(100%,100% )
+  }
+  
+  .controlsDos {
+   @include contacto(300px,100% )
+  }
   
 
   .exp{
@@ -52,6 +70,25 @@ section img{
     transition: 0.6s ease-out;
     filter: grayscale(0.9);
   }
+}
+.formRegistro{
+  width: 400px;
+  background: $color-pagina-dos;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  box-shadow: 7px 13px 37px #000;
+}
+
+
+.form-register .botons {
+  width: 100%;
+  margin: 16px 0;
+  font-size: 16px;
+  align-items: center;
+  object-position: center;
+  
 }
 
   .rotate-center {
