@@ -33,6 +33,12 @@
   .controlsDos {
    @include contacto(300px,100% )
   }
+
+  .controlsTres{
+    @extend .controls;
+    color: blue;
+    
+  }
   
 
   .exp{
@@ -71,6 +77,8 @@ section img{
     filter: grayscale(0.9);
   }
 }
+
+
 .formRegistro{
   width: 400px;
   background: $color-pagina-dos;

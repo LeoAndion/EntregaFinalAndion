@@ -8,7 +8,7 @@
   height: 500px;
 }
 
-.controls {
+.controls, .controlsTres {
   height: 100%;
   width: 100%;
   background: #ffffff;
@@ -30,6 +30,10 @@
   border: 1px solid #3f3f3f;
   font-size: 18px;
   color: #000;
+}
+
+.controlsTres {
+  color: blue;
 }
 
 .exp {
